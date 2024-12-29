@@ -99,7 +99,7 @@ async function loadFormula() {
 
 		// Populate equation
 		if (formula.equation) {
-			const introEquation = introductionSection.querySelector('p.text-center');
+			const introEquation = introductionSection.querySelector('span');
 			const introList = introductionSection.querySelector('ul');
 			introEquation.textContent = formula.equation.formula;
 
