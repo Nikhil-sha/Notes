@@ -1,1 +1,140 @@
-hello himesh test
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="A hub for physics formulas and related concepts, with chapters and interactive learning resources for students and enthusiasts.">
+	<meta name="keywords" content="Physics, Formulas, Learning, Notes, Chapter, Study, Educational">
+	<meta name="author" content="Nikhil Sharma">
+	<meta property="og:title" content="Notes. - Your Ultimate Physics Formula Hub">
+	<meta property="og:description" content="Explore detailed formulas, derivations, and examples in physics. Perfect for students, educators, and enthusiasts.">
+	<meta property="og:url" content="">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Notes. - Physics Formulas and Chapters">
+	<meta name="twitter:description" content="A comprehensive guide for physics formulas, derivations, and more. Ideal for physics learners.">
+
+	<title>Physics Formulas and Chapters | Notes.</title>
+
+	<!-- Custom Styles -->
+	<script src="https://cdn.tailwindcss.com/"></script>
+	<link rel="stylesheet" href="styles/main.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap">
+</head>
+
+<body>
+	<header class="sticky top-0 h-14 w-full bg-yellow-400 shadow-lg z-50">
+		<div class="w-full max-w-3xl mx-auto h-full px-4 flex justify-between items-center">
+			<!-- Logo/Title -->
+			<div>
+				<h1 class="text-lg font-black text-gray-800 tracking-wide">Notes.</h1>
+			</div>
+
+			<!-- Navigation Dropdown -->
+			<div class="relative">
+				<button id="menuButton" aria-expanded="false" aria-controls="dropdownMenu" class="text-gray-800 font-medium focus:outline-none hover:text-gray-600 transition">
+					<i class="fas fa-bars"></i>
+				</button>
+
+				<!-- Dropdown Menu -->
+				<div id="dropdownMenu" class="hidden absolute right-0 mt-2 w-40 bg-white rounded-lg shadow-lg border border-gray-200 overflow-hidden" role="menu" aria-labelledby="menuButton">
+					<a href="#home" class="block px-4 py-2 text-gray-700 hover:bg-yellow-300" role="menuitem" aria-current="page"><i class="fas fa-home w-6 mr-2 text-center fa-sm"></i>Home</a>
+					<a href="#about" class="block px-4 py-2 text-gray-700 hover:bg-yellow-300" role="menuitem"><i class="fas fa-user w-6 mr-2 text-center fa-sm"></i>About</a>
+					<a href="#contact" class="block px-4 py-2 text-gray-700 hover:bg-yellow-300" role="menuitem"><i class="fas fa-phone w-6 mr-2 text-center fa-sm"></i>Contact</a>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<nav id="breadcrumb" aria-label="Breadcrumb">
+	</nav>
+
+	<main class="w-full">
+		<section class="w-full max-w-3xl mx-auto px-4 py-8">
+			<h1 class="text-3xl font-extrabold text-gray-900 mb-6">Blog</h1>
+
+			<article id="about" class="mb-10" role="article">
+				<h2 class="text-xl font-semibold text-gray-800 leading-snug tracking-wide mb-2">
+					Introduction to Web Development
+				</h2>
+				<p class="text-gray-700 text-base leading-relaxed mb-8">
+					Physics is the cornerstone of our understanding of the universe. It unravels the mysteries of nature, explaining phenomena from the motion of planets to the behavior of subatomic particles. By relying on precise formulas and principles, physics connects theory to real-world applications, shaping the technology and advancements we see today.
+				</p>
+				<p class="text-gray-700 text-base leading-relaxed">
+					For students, educators, and enthusiasts, keeping track of the vast array of physics formulas can be daunting. To simplify this journey, We present to you Notes. – your ultimate hub for all physics formulas.
+				</p>
+			</article>
+
+			<article class="mb-10" role="article">
+				<h2 class="text-xl font-semibold text-gray-800 leading-snug tracking-wide mb-2">
+					Chapters from Class 11:
+				</h2>
+				<ol id="chapterList" class="list-decimal list-inside text-gray-600 text-sm space-y-2" aria-labelledby="Chapters">
+				</ol>
+			</article>
+		</section>
+	</main>
+
+	<footer class="w-full bg-gray-800 text-gray-200">
+		<section class="w-full max-w-6xl mx-auto px-4 py-8">
+			<!-- Top Section -->
+			<div class="flex flex-wrap justify-between items-center mb-8">
+				<h1 class="text-3xl font-extrabold text-yellow-400">Notes.</h1>
+				<div class="space-x-4">
+					<a href="https://github.com/Nikhil-sha" class="hover:text-blue-400" aria-label="GitHub Profile"><i class="fab fa-github fa-lg"></i></a>
+					<a href="mailto:nikhil.s.manage@gmail.com" class="hover:text-blue-400" aria-label="Send Email"><i class="fas fa-envelope fa-lg"></i></a>
+					<a href="https://linkedin.com/in/nikhil" class="hover:text-blue-400" aria-label="LinkedIn Profile"><i class="fab fa-linkedin fa-lg"></i></a>
+				</div>
+			</div>
+
+			<!-- Quick Links Section -->
+			<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 mb-8">
+				<div>
+					<h3 class="text-lg font-bold mb-4">Quick Links</h3>
+					<ul class="space-y-2">
+						<li><a href="/" class="hover:text-blue-400" aria-label="Go to Home">Home</a></li>
+						<li><a href="#about" class="hover:text-blue-400" aria-label="Learn About Us">About</a></li>
+					</ul>
+				</div>
+				<div>
+					<h3 class="text-lg font-bold mb-4">Contact</h3>
+					<ul class="space-y-2">
+						<li>Email: <a href="mailto:nikhil.s.manage@gmail.com" class="hover:text-blue-400" aria-label="Email Nikhil">nikhil.s.manage@gmail.com</a></li>
+						<li>GitHub: <a href="https://github.com/Nikhil-sha" class="hover:text-blue-400" aria-label="Visit GitHub Profile">Nikhil-sha</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="border-t border-gray-700 mt-8 pt-4">
+				<h2 class="text-center text-sm font-bold mb-4">Designed and developed by:</h2>
+				<div class="flex flex-col md:flex-row justify-around text-sm space-y-4 md:space-y-0">
+					<div>
+						<p class="font-bold">Nikhil Sharma</p>
+						<div class="space-x-2 mt-2">
+							<a href="https://github.com/Nikhil-sha" class="hover:text-blue-400" aria-label="GitHub Profile"><i class="fab fa-github fa-lg"></i></a>
+							<a href="mailto:nikhil.s.manage@gmail.com" class="hover:text-blue-400" aria-label="Send Email"><i class="fas fa-envelope fa-lg"></i></a>
+						</div>
+					</div>
+					<div>
+						<p class="font-bold">Himesh Gupta</p>
+						<div class="space-x-2 mt-2">
+							<a href="https://github.com/chiku8953" class="hover:text-blue-400" aria-label="GitHub Profile"><i class="fab fa-github fa-lg"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Bottom Section -->
+			<div class="border-t border-gray-700 mt-8 pt-4 text-center text-sm">
+				<p>&copy; 2024 Notes. All rights reserved.</p>
+			</div>
+		</section>
+	</footer>
+
+	<script src="/scripts/index.js"></script>
+	<script src="/scripts/template.js"></script>
+</body>
+
+</html>
