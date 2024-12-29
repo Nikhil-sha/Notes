@@ -31,27 +31,27 @@
 		"topic_name": "Conversion of Units",
 		"definition": "The conversion of units is based on the principle that the numerical value of a physical quantity changes when the unit of measurement changes.",
 		"equation": {
-			"formula": "n1 × u1 = n2 × u2",
+			"formula": "n1 x u1 = n2 x u2",
 			"terms": {
 				"n1": "Numerical value in the first unit",
 				"u1": "First unit",
 				"n2": "Numerical value in the second unit",
 				"u2": "Second unit"
 			},
-			"operators": ["×"]
+			"operators": ["x"]
 		},
 		"derivation": {
 			"steps": [
-				"Start with the equation n1 × u1 = n2 × u2.",
+				"Start with the equation n1 x u1 = n2 x u2.",
 				"Rearrange to find the unknown numerical value or unit."
 			],
-			"result": "n1 × u1 = n2 × u2"
+			"result": "n1 x u1 = n2 x u2"
 		},
 		"example": {
 			"steps": [
 				"Convert 1 kilometer to meters.",
 				"Here, n1 = 1, u1 = km, n2 = ?, and u2 = m.",
-				"1 km = 1000 m, so n2 = 1 × 1000.",
+				"1 km = 1000 m, so n2 = 1 x 1000.",
 				"Result: n2 = 1000."
 			],
 			"result": "1 kilometer = 1000 meters"
@@ -121,19 +121,19 @@
 	{
 		"topic_name": "Percentage Error",
 		"equation": {
-			"formula": "% Error = (Δn / n) × 100",
+			"formula": "% Error = (Δn / n) x 100",
 			"terms": {
 				"% Error": "Percentage error",
 				"Δn": "Absolute error",
 				"n": "Actual value"
 			},
-			"operators": ["/", "×"]
+			"operators": ["/", "x"]
 		},
 		"example": {
 			"steps": [
 						"Suppose Δn = 2 and n = 50.",
-						"Substitute into the formula: % Error = (2 / 50) × 100.",
-						"% Error = 0.04 × 100.",
+						"Substitute into the formula: % Error = (2 / 50) x 100.",
+						"% Error = 0.04 x 100.",
 						"Result: % Error = 4%."
 					],
 			"result": "Percentage error = 4%"
@@ -191,23 +191,23 @@
 	{
 		"topic_name": "Positive Zero Error",
 		"equation": {
-			"formula": "Positive Zero Error = L.C × coinciding division of V.S",
+			"formula": "Positive Zero Error = L.C x coinciding division of V.S",
 			"terms": {
 				"L.C": "Least count",
 				"coinciding division of V.S": "The vernier scale division that coincides with the main scale"
 			},
-			"operators": ["×"]
+			"operators": ["x"]
 		}
 	},
 	{
 		"topic_name": "Negative Zero Error",
 		"equation": {
-			"formula": "Negative Zero Error = - (L.C × coinciding division of V.S)",
+			"formula": "Negative Zero Error = - (L.C x coinciding division of V.S)",
 			"terms": {
 				"L.C": "Least count",
 				"coinciding division of V.S": "The vernier scale division that coincides with the main scale"
 			},
-			"operators": ["-", "×"]
+			"operators": ["-", "x"]
 		}
 	},
 	{
@@ -233,18 +233,18 @@
 	{
 		"topic_name": "Vernier Scale Reading",
 		"equation": {
-			"formula": "Vernier Scale Reading (VSR) = L.C × coinciding division of V.S",
+			"formula": "Vernier Scale Reading (VSR) = L.C x coinciding division of V.S",
 			"terms": {
 				"VSR": "Vernier scale reading",
 				"L.C": "Least count",
 				"coinciding division of V.S": "The vernier scale division that coincides with the main scale"
 			},
-			"operators": ["×"]
+			"operators": ["x"]
 		},
 		"example": {
 			"steps": [
 				"Suppose L.C = 0.1 cm and coinciding division of V.S = 3.",
-				"Substitute into the formula: VSR = 0.1 × 3.",
+				"Substitute into the formula: VSR = 0.1 x 3.",
 				"Result: VSR = 0.3 cm."
 			],
 			"result": "Vernier scale reading = 0.3 cm"
@@ -302,18 +302,18 @@
 	{
 		"topic_name": "Circular Scale Reading (CSR)",
 		"equation": {
-			"formula": "CSR = L.C × coinciding division of circular scale (CS) with base line",
+			"formula": "CSR = L.C x coinciding division of circular scale (CS) with base line",
 			"terms": {
 				"CSR": "Circular scale reading",
 				"L.C": "Least count",
 				"coinciding division of CS": "The division of the circular scale that aligns with the base line"
 			},
-			"operators": ["×"]
+			"operators": ["x"]
 		},
 		"example": {
 			"steps": [
 				"Suppose L.C = 0.01 mm and the coinciding division of CS = 4.",
-				"Substitute into the formula: CSR = 0.01 × 4.",
+				"Substitute into the formula: CSR = 0.01 x 4.",
 				"Result: CSR = 0.04 mm."
 			],
 			"result": "Circular scale reading = 0.04 mm"
@@ -322,25 +322,25 @@
 	{
 		"topic_name": "Positive Error",
 		"equation": {
-			"formula": "Positive Error = L.C × coinciding division of CS with base line",
+			"formula": "Positive Error = L.C x coinciding division of CS with base line",
 			"terms": {
 				"Positive Error": "Error when the circular scale reading is ahead of the base line",
 				"L.C": "Least count",
 				"coinciding division of CS": "The division of the circular scale that aligns with the base line"
 			},
-			"operators": ["×"]
+			"operators": ["x"]
 		}
 	},
 	{
 		"topic_name": "Negative Error",
 		"equation": {
-			"formula": "Negative Error = - (L.C × coinciding division of CS with base line)",
+			"formula": "Negative Error = - (L.C x coinciding division of CS with base line)",
 			"terms": {
 				"Negative Error": "Error when the circular scale reading is behind the base line",
 				"L.C": "Least count",
 				"coinciding division of CS": "The division of the circular scale that aligns with the base line"
 			},
-			"operators": ["-", "×"]
+			"operators": ["-", "x"]
 		}
 	},
 	{
@@ -417,7 +417,7 @@
 		"example": {
 			"steps": [
 						"Suppose Δx = 0.1 mm, x = 5 mm, Δy = 0.2 mm, and y = 10 mm.",
-						"Calculate percentage errors: (Δx / x)% = (0.1 / 5) × 100 = 2%, (Δy / y)% = (0.2 / 10) × 100 = 2%.",
+						"Calculate percentage errors: (Δx / x)% = (0.1 / 5) x 100 = 2%, (Δy / y)% = (0.2 / 10) x 100 = 2%.",
 						"Add: (Δz / z)% = 2% + 2%.",
 						"Result: Percentage error = 4%."
 					],
@@ -427,19 +427,19 @@
 	{
 		"topic_name": "Error in Power of a Measured Quantity",
 		"equation": {
-			"formula": "Δz = m × (Δx / x), where z = x^m",
+			"formula": "Δz = m x (Δx / x), where z = x^m",
 			"terms": {
 				"Δz": "Error in the result",
 				"m": "Power of the measured quantity",
 				"Δx / x": "Relative error in the measured quantity"
 			},
-			"operators": ["×"]
+			"operators": ["x"]
 		},
 		"example": {
 			"steps": [
 						"Suppose m = 3, Δx = 0.1 mm, and x = 5 mm.",
-						"Substitute into the formula: Δz = 3 × (0.1 / 5).",
-						"Calculate: Δz = 3 × 0.02 = 0.06.",
+						"Substitute into the formula: Δz = 3 x (0.1 / 5).",
+						"Calculate: Δz = 3 x 0.02 = 0.06.",
 						"Result: Error in z = 0.06."
 					],
 			"result": "Error in z = 0.06"
@@ -448,19 +448,19 @@
 	{
 		"topic_name": "Percentage Error in Power of a Measured Quantity",
 		"equation": {
-			"formula": "(Δz / z)% = m × (Δx / x)%, where % = 100",
+			"formula": "(Δz / z)% = m x (Δx / x)%, where % = 100",
 			"terms": {
 				"(Δz / z)%": "Percentage error in the result",
 				"m": "Power of the measured quantity",
 				"(Δx / x)%": "Percentage error in the measured quantity"
 			},
-			"operators": ["×"]
+			"operators": ["x"]
 		},
 		"example": {
 			"steps": [
 						"Suppose m = 3, Δx = 0.1 mm, and x = 5 mm.",
-						"Calculate percentage error: (Δx / x)% = (0.1 / 5) × 100 = 2%.",
-						"Substitute into the formula: (Δz / z)% = 3 × 2%.",
+						"Calculate percentage error: (Δx / x)% = (0.1 / 5) x 100 = 2%.",
+						"Substitute into the formula: (Δz / z)% = 3 x 2%.",
 						"Result: Percentage error in z = 6%."
 					],
 			"result": "Percentage error = 6%"
