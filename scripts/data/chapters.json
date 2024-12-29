@@ -1,0 +1,127 @@
+[
+	{
+		"name": "Unit And Measurement",
+		"url": "unit-and-measurement",
+		"summary": "This chapter introduces the fundamentals of measurement, including physical quantities, SI units, and measurement systems. It covers the importance of accuracy and precision, the concept of significant figures, and error analysis. Dimensional analysis is explained for checking the consistency of equations and converting units."
+	},
+
+	{
+		"name": "Vector",
+		"url": "vector",
+		"summary": "This chapter focuses on vector quantities, which have both magnitude and direction. Topics include vector addition and subtraction, scalar multiplication, dot product, cross product, and applications in physics. The chapter also explains resolving vectors into components and the concept of null vectors."
+	},
+
+	{
+		"name": "Rest And Motion",
+		"url": "rest-and-motion",
+		"summary": "This chapter explores the concepts of rest and motion as relative phenomena. It introduces types of motion, such as rectilinear and curvilinear motion, and concepts like displacement, velocity, and acceleration. Equations of motion for uniformly accelerated motion are derived and applied to real-world scenarios."
+	},
+
+	{
+		"name": "Newton Law Of Motion",
+		"url": "newton-law-of-motion",
+		"summary": "This chapter discusses Newton's three laws of motion, providing the foundation for classical mechanics. Key concepts include force, mass, inertia, linear momentum, and their conservation. Applications like free-body diagrams and the role of friction in motion are also included."
+	},
+
+	{
+		"name": "Friction",
+		"url": "friction",
+		"summary": "Friction is the resistive force that opposes motion. This chapter explains the types of friction (static and kinetic), the laws of friction, the angle of repose, and the coefficient of friction. The role of lubrication and practical applications in daily life are also discussed."
+	},
+
+	{
+		"name": "Circular Motion",
+		"url": "circular-motion",
+		"summary": "Circular motion examines objects moving in a circular path. The chapter introduces angular displacement, velocity, and acceleration. It explains centripetal and centrifugal forces, along with applications like banking of roads and motion of satellites."
+	},
+
+	{
+		"name": "Work And Energy",
+		"url": "work-and-energy",
+		"summary": "This chapter defines work as the dot product of force and displacement. It discusses kinetic and potential energy, the work-energy theorem, and the law of conservation of energy. Power and efficiency are also introduced as measures of energy transfer."
+	},
+
+	{
+		"name": "Center Of Mass, Linear Momentum, Collision",
+		"url": "center-of-mass",
+		"summary": "This chapter explores the concept of the center of mass and its motion. It explains linear momentum and its conservation during collisions. Types of collisions (elastic and inelastic) and their mathematical treatment are also discussed."
+	},
+
+	{
+		"name": "Rotational Motion",
+		"url": "rotational-motion",
+		"summary": "Rotational motion focuses on the dynamics of objects rotating about an axis. Topics include angular velocity, angular acceleration, torque, moment of inertia, angular momentum, and the analogy between linear and rotational motion."
+	},
+
+	{
+		"name": "Gravitation",
+		"url": "gravitation",
+		"summary": "This chapter explains the universal law of gravitation and its applications. Topics include gravitational field, potential, escape velocity, orbital mechanics, and Kepler’s laws of planetary motion."
+	},
+
+	{
+		"name": "Simple Harmonic Motion",
+		"url": "simple-harmonic-motion",
+		"summary": "Simple Harmonic Motion (SHM) describes oscillatory motion. The chapter derives equations for displacement, velocity, and acceleration. Energy conservation in SHM and examples like pendulums and springs are discussed."
+	},
+
+	{
+		"name": "Fluid Mechanics",
+		"url": "fluid-mechanics",
+		"summary": "Fluid mechanics studies the behavior of fluids at rest and in motion. Topics include Pascal’s law, Archimedes’ principle, viscosity, surface tension, and Bernoulli’s equation."
+	},
+
+	{
+		"name": "Some Mechanical Properties Of Matter",
+		"url": "some-mechanical-properties-of-matter",
+		"summary": "This chapter focuses on the mechanical properties of solids and liquids. Elasticity, stress-strain curves, modulus of elasticity, and properties like cohesion, adhesion, and surface energy are explored."
+	},
+
+	{
+		"name": "Wave Motion And Waves On A String",
+		"url": "wave-motion",
+		"summary": "Wave motion involves the propagation of disturbances. This chapter covers wave characteristics, the wave equation, types of waves, and transverse and longitudinal waves. It also discusses waves on strings, resonance, and harmonics."
+	},
+
+	{
+		"name": "Sound Waves",
+		"url": "sound-waves-json",
+		"summary": "Sound waves are longitudinal mechanical waves. Topics include speed of sound in different media, intensity, loudness, Doppler effect, and applications like sonar and musical instruments."
+	},
+
+	{
+		"name": "Light Waves",
+		"url": "light-waves",
+		"summary": "Light waves, part of the electromagnetic spectrum, exhibit wave-like behavior. This chapter covers interference, diffraction, polarization, and Huygens’ principle."
+	},
+
+	{
+		"name": "Geometrical Optics",
+		"url": "geometrical-optics",
+		"summary": "Geometrical optics studies the behavior of light rays. Reflection, refraction, lens and mirror equations, and optical phenomena like mirages are discussed."
+	},
+
+	{
+		"name": "Optical Instruments",
+		"url": "optical-instruments",
+		"summary": "This chapter covers optical instruments like microscopes, telescopes, and their principles. It explains magnification, resolving power, and lens aberrations."
+	},
+
+	{
+		"name": "Dispersion And Spectra",
+		"url": "disperison-and-spectra",
+		"summary": "Dispersion refers to the separation of light into its spectrum. This chapter explains spectra types, rainbow formation, and spectral analysis applications."
+	},
+
+	{
+		"name": "Speed Of Light",
+		"url": "speed-of-light",
+		"summary": "This chapter discusses the measurement, historical experiments, and constancy of the speed of light in various media."
+	},
+
+	{
+		"name": "Photometry",
+		"url": "photomatry",
+		"summary": "Photometry deals with the measurement of light intensity. It explains luminous flux, illuminance, and applications in lighting and vision."
+	}
+]

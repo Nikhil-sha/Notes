@@ -1,0 +1,469 @@
+[
+	{
+		"topic_name": "Supplementary Quantities",
+		"definition": "Supplementary quantities are additional units that define plane angle and solid angle.",
+		"equation": {
+			"formula": "Radian = arc length / radius",
+			"terms": {
+				"Radian": "The unit of plane angle",
+				"arc length": "The length of the arc of a circle",
+				"radius": "The radius of the circle"
+			},
+			"operators": ["/"]
+		},
+		"derivation": {
+			"steps": [
+				"Consider a circle with radius r and arc length l.",
+				"The plane angle in radians is defined as the ratio of the arc length to the radius."
+			],
+			"result": "dθ = dl / r"
+		},
+		"example": {
+			"steps": [
+				"Take a circle with radius r = 2 m and an arc length l = 6 m.",
+				"Substitute the values into the formula: Radian = l / r.",
+				"Radian = 6 / 2 = 3."
+			],
+			"result": "Plane angle = 3 radians"
+		}
+	},
+	{
+		"topic_name": "Conversion of Units",
+		"definition": "The conversion of units is based on the principle that the numerical value of a physical quantity changes when the unit of measurement changes.",
+		"equation": {
+			"formula": "n1 × u1 = n2 × u2",
+			"terms": {
+				"n1": "Numerical value in the first unit",
+				"u1": "First unit",
+				"n2": "Numerical value in the second unit",
+				"u2": "Second unit"
+			},
+			"operators": ["×"]
+		},
+		"derivation": {
+			"steps": [
+				"Start with the equation n1 × u1 = n2 × u2.",
+				"Rearrange to find the unknown numerical value or unit."
+			],
+			"result": "n1 × u1 = n2 × u2"
+		},
+		"example": {
+			"steps": [
+				"Convert 1 kilometer to meters.",
+				"Here, n1 = 1, u1 = km, n2 = ?, and u2 = m.",
+				"1 km = 1000 m, so n2 = 1 × 1000.",
+				"Result: n2 = 1000."
+			],
+			"result": "1 kilometer = 1000 meters"
+		}
+	},
+	{
+		"topic_name": "Absolute Error",
+		"equation": {
+			"formula": "Δn = n - n'",
+			"terms": {
+				"Δn": "Absolute error",
+				"n": "Actual value",
+				"n'": "Measured value"
+			},
+			"operators": ["-"]
+		},
+		"example": {
+			"steps": [
+						"Suppose the actual value is 50 and the measured value is 48.",
+						"Substitute into the formula: Δn = 50 - 48.",
+						"Result: Δn = 2."
+					],
+			"result": "Absolute error = 2"
+		}
+			},
+	{
+		"topic_name": "Mean Absolute Error",
+		"equation": {
+			"formula": "mean |Δn| = (|Δn1| + |Δn2| + ... + |Δnn|) / n",
+			"terms": {
+				"mean |Δn|": "Mean absolute error",
+				"Δn1, Δn2, ..., Δnn": "Absolute errors",
+				"n": "Number of observations"
+			},
+			"operators": ["+", "/", "| |"]
+		},
+		"example": {
+			"steps": [
+						"Consider absolute errors: Δn1 = 2, Δn2 = 3, Δn3 = 1.",
+						"Substitute into the formula: mean |Δn| = (|2| + |3| + |1|) / 3.",
+						"mean |Δn| = 6 / 3.",
+						"Result: mean |Δn| = 2."
+					],
+			"result": "Mean absolute error = 2"
+		}
+			},
+	{
+		"topic_name": "Relative Error",
+		"equation": {
+			"formula": "R = Δn / n",
+			"terms": {
+				"R": "Relative error",
+				"Δn": "Absolute error",
+				"n": "Actual value"
+			},
+			"operators": ["/"]
+		},
+		"example": {
+			"steps": [
+						"Suppose Δn = 2 and n = 50.",
+						"Substitute into the formula: R = 2 / 50.",
+						"Result: R = 0.04."
+					],
+			"result": "Relative error = 0.04"
+		}
+			},
+	{
+		"topic_name": "Percentage Error",
+		"equation": {
+			"formula": "% Error = (Δn / n) × 100",
+			"terms": {
+				"% Error": "Percentage error",
+				"Δn": "Absolute error",
+				"n": "Actual value"
+			},
+			"operators": ["/", "×"]
+		},
+		"example": {
+			"steps": [
+						"Suppose Δn = 2 and n = 50.",
+						"Substitute into the formula: % Error = (2 / 50) × 100.",
+						"% Error = 0.04 × 100.",
+						"Result: % Error = 4%."
+					],
+			"result": "Percentage error = 4%"
+		}
+			},
+	{
+		"topic_name": "Vernier Caliper",
+		"definition": "A vernier caliper is an instrument used to measure internal and external dimensions and depths with high accuracy.",
+		"equation": {
+			"formula": "Least count (L.C) = 1MSD - 1VSD",
+			"terms": {
+				"L.C": "Least count of the vernier caliper",
+				"1MSD": "One main scale division",
+				"1VSD": "One vernier scale division"
+			},
+			"operators": ["-"]
+		},
+		"derivation": {
+			"steps": [
+				"The least count of a vernier caliper is defined as the difference between one main scale division (1MSD) and one vernier scale division (1VSD).",
+				"From the relation: n VSD = m MSD, we get VSD/MSD = m/n."
+			],
+			"result": "L.C = 1MSD - 1VSD"
+		},
+		"example": {
+			"steps": [
+				"Suppose 10 VSD = 9 MSD.",
+				"Calculate 1VSD = 9/10 MSD = 0.9 MSD.",
+				"Substitute into the formula: L.C = 1MSD - 1VSD = 1 - 0.9.",
+				"Result: L.C = 0.1 MSD."
+			],
+			"result": "Least count = 0.1 MSD"
+		}
+	},
+	{
+		"topic_name": "Total Reading of Vernier Caliper",
+		"equation": {
+			"formula": "Total Reading = MSR + VSR",
+			"terms": {
+				"Total Reading": "Final reading of the vernier caliper",
+				"MSR": "Main scale reading",
+				"VSR": "Vernier scale reading"
+			},
+			"operators": ["+"]
+		},
+		"example": {
+			"steps": [
+				"Suppose MSR = 3.4 cm and VSR = 0.02 cm.",
+				"Substitute into the formula: Total Reading = 3.4 + 0.02.",
+				"Result: Total Reading = 3.42 cm."
+			],
+			"result": "Total reading = 3.42 cm"
+		}
+	},
+	{
+		"topic_name": "Positive Zero Error",
+		"equation": {
+			"formula": "Positive Zero Error = L.C × coinciding division of V.S",
+			"terms": {
+				"L.C": "Least count",
+				"coinciding division of V.S": "The vernier scale division that coincides with the main scale"
+			},
+			"operators": ["×"]
+		}
+			},
+	{
+		"topic_name": "Negative Zero Error",
+		"equation": {
+			"formula": "Negative Zero Error = - (L.C × coinciding division of V.S)",
+			"terms": {
+				"L.C": "Least count",
+				"coinciding division of V.S": "The vernier scale division that coincides with the main scale"
+			},
+			"operators": ["-", "×"]
+		}
+			},
+	{
+		"topic_name": "Correct Reading of Vernier Caliper",
+		"equation": {
+			"formula": "Correct Reading = Total Reading - Zero Error",
+			"terms": {
+				"Correct Reading": "The accurate measurement after error correction",
+				"Total Reading": "Measured value before error correction",
+				"Zero Error": "Error caused by the misalignment of scales"
+			},
+			"operators": ["-"]
+		},
+		"example": {
+			"steps": [
+						"Suppose Total Reading = 3.42 cm and Zero Error = 0.02 cm.",
+						"Substitute into the formula: Correct Reading = 3.42 - 0.02.",
+						"Result: Correct Reading = 3.40 cm."
+					],
+			"result": "Correct reading = 3.40 cm"
+		}
+	},
+	{
+		"topic_name": "Vernier Scale Reading",
+		"equation": {
+			"formula": "Vernier Scale Reading (VSR) = L.C × coinciding division of V.S",
+			"terms": {
+				"VSR": "Vernier scale reading",
+				"L.C": "Least count",
+				"coinciding division of V.S": "The vernier scale division that coincides with the main scale"
+			},
+			"operators": ["×"]
+		},
+		"example": {
+			"steps": [
+				"Suppose L.C = 0.1 cm and coinciding division of V.S = 3.",
+				"Substitute into the formula: VSR = 0.1 × 3.",
+				"Result: VSR = 0.3 cm."
+			],
+			"result": "Vernier scale reading = 0.3 cm"
+		}
+	},
+	{
+		"topic_name": "Least Count of Screw Gauge",
+		"equation": {
+			"formula": "L.C = Pitch / No. of circular scale divisions",
+			"terms": {
+				"L.C": "Least count of the screw gauge",
+				"Pitch": "Distance moved by the screw in one complete rotation",
+				"No. of circular scale divisions": "Total divisions on the circular scale"
+			},
+			"operators": ["/"]
+		},
+		"example": {
+			"steps": [
+						"Suppose the pitch = 0.5 mm and the number of circular scale divisions = 50.",
+						"Substitute into the formula: L.C = 0.5 / 50.",
+						"Result: L.C = 0.01 mm."
+					],
+			"result": "Least count = 0.01 mm"
+		}
+			},
+	{
+		"topic_name": "Pitch of Screw Gauge",
+		"definition": "The pitch is the distance moved by the screw in one complete rotation. For example, a pitch of 0.1 mm indicates that the screw advances by 0.1 mm on the main scale for one full rotation."
+	},
+	{
+		"topic_name": "Markings of Screw Gauge",
+		"definition": "The screw gauge has two scales: the main scale and the circular scale.",
+		"terms": {
+			"MSR": "Main Scale Reading",
+			"CSR": "Circular Scale Reading"
+		},
+		"equation": {
+			"formula": "Total Reading = MSR + CSR",
+			"terms": {
+				"Total Reading": "The final measurement obtained",
+				"MSR": "Main scale reading",
+				"CSR": "Circular scale reading"
+			},
+			"operators": ["+"]
+		},
+		"example": {
+			"steps": [
+				"Suppose MSR = 5 mm and CSR = 0.02 mm.",
+				"Substitute into the formula: Total Reading = 5 + 0.02.",
+				"Result: Total Reading = 5.02 mm."
+			],
+			"result": "Total reading = 5.02 mm"
+		}
+	},
+	{
+		"topic_name": "Circular Scale Reading (CSR)",
+		"equation": {
+			"formula": "CSR = L.C × coinciding division of circular scale (CS) with base line",
+			"terms": {
+				"CSR": "Circular scale reading",
+				"L.C": "Least count",
+				"coinciding division of CS": "The division of the circular scale that aligns with the base line"
+			},
+			"operators": ["×"]
+		},
+		"example": {
+			"steps": [
+				"Suppose L.C = 0.01 mm and the coinciding division of CS = 4.",
+				"Substitute into the formula: CSR = 0.01 × 4.",
+				"Result: CSR = 0.04 mm."
+			],
+			"result": "Circular scale reading = 0.04 mm"
+		}
+	},
+	{
+		"topic_name": "Positive Error",
+		"equation": {
+			"formula": "Positive Error = L.C × coinciding division of CS with base line",
+			"terms": {
+				"Positive Error": "Error when the circular scale reading is ahead of the base line",
+				"L.C": "Least count",
+				"coinciding division of CS": "The division of the circular scale that aligns with the base line"
+			},
+			"operators": ["×"]
+		}
+			},
+	{
+		"topic_name": "Negative Error",
+		"equation": {
+			"formula": "Negative Error = - (L.C × coinciding division of CS with base line)",
+			"terms": {
+				"Negative Error": "Error when the circular scale reading is behind the base line",
+				"L.C": "Least count",
+				"coinciding division of CS": "The division of the circular scale that aligns with the base line"
+			},
+			"operators": ["-", "×"]
+		}
+	},
+	{
+		"topic_name": "Correct Reading of Screw Gauge",
+		"equation": {
+			"formula": "Correct Reading = Total Reading - Zero Error",
+			"terms": {
+				"Correct Reading": "Accurate measurement after error correction",
+				"Total Reading": "Measured value before correcting the zero error",
+				"Zero Error": "The misalignment of the screw gauge scale"
+			},
+			"operators": ["-"]
+		},
+		"example": {
+			"steps": [
+				"Suppose Total Reading = 5.02 mm and Zero Error = 0.02 mm.",
+				"Substitute into the formula: Correct Reading = 5.02 - 0.02.",
+				"Result: Correct Reading = 5.00 mm."
+			],
+			"result": "Correct Reading = 5.00 mm"
+		}
+	},
+	{
+		"topic_name": "Errors in Addition and Subtraction",
+		"equation": {
+			"formula": "Δz = Δx + Δy",
+			"terms": {
+				"Δz": "Total error in the result",
+				"Δx, Δy": "Errors in individual measurements"
+			},
+			"operators": ["+"]
+		},
+		"example": {
+			"steps": [
+						"Suppose Δx = 0.1 mm and Δy = 0.2 mm.",
+						"Substitute into the formula: Δz = 0.1 + 0.2.",
+						"Result: Δz = 0.3 mm."
+					],
+			"result": "Total error = 0.3 mm"
+		}
+			},
+	{
+		"topic_name": "Errors in Multiplication and Division",
+		"equation": {
+			"formula": "|Δz / z|max = Δx / x + Δy / y",
+			"terms": {
+				"|Δz / z|max": "Maximum relative error in the result",
+				"Δx / x": "Relative error in the first quantity",
+				"Δy / y": "Relative error in the second quantity"
+			},
+			"operators": ["+", "/"]
+		},
+		"example": {
+			"steps": [
+						"Suppose Δx = 0.1 mm, x = 5 mm, Δy = 0.2 mm, and y = 10 mm.",
+						"Substitute into the formula: |Δz / z|max = (0.1 / 5) + (0.2 / 10).",
+						"Calculate: |Δz / z|max = 0.02 + 0.02 = 0.04.",
+						"Result: Maximum relative error = 0.04."
+					],
+			"result": "Maximum relative error = 0.04"
+		}
+			},
+	{
+		"topic_name": "Errors in Percentage (Multiplication and Division)",
+		"equation": {
+			"formula": "(Δz / z)% = (Δx / x)% + (Δy / y)%, where % = 100",
+			"terms": {
+				"(Δz / z)%": "Percentage error in the result",
+				"(Δx / x)%": "Percentage error in the first quantity",
+				"(Δy / y)%": "Percentage error in the second quantity"
+			},
+			"operators": ["+", "/"]
+		},
+		"example": {
+			"steps": [
+						"Suppose Δx = 0.1 mm, x = 5 mm, Δy = 0.2 mm, and y = 10 mm.",
+						"Calculate percentage errors: (Δx / x)% = (0.1 / 5) × 100 = 2%, (Δy / y)% = (0.2 / 10) × 100 = 2%.",
+						"Add: (Δz / z)% = 2% + 2%.",
+						"Result: Percentage error = 4%."
+					],
+			"result": "Percentage error = 4%"
+		}
+			},
+	{
+		"topic_name": "Error in Power of a Measured Quantity",
+		"equation": {
+			"formula": "Δz = m × (Δx / x), where z = x^m",
+			"terms": {
+				"Δz": "Error in the result",
+				"m": "Power of the measured quantity",
+				"Δx / x": "Relative error in the measured quantity"
+			},
+			"operators": ["×"]
+		},
+		"example": {
+			"steps": [
+						"Suppose m = 3, Δx = 0.1 mm, and x = 5 mm.",
+						"Substitute into the formula: Δz = 3 × (0.1 / 5).",
+						"Calculate: Δz = 3 × 0.02 = 0.06.",
+						"Result: Error in z = 0.06."
+					],
+			"result": "Error in z = 0.06"
+		}
+			},
+	{
+		"topic_name": "Percentage Error in Power of a Measured Quantity",
+		"equation": {
+			"formula": "(Δz / z)% = m × (Δx / x)%, where % = 100",
+			"terms": {
+				"(Δz / z)%": "Percentage error in the result",
+				"m": "Power of the measured quantity",
+				"(Δx / x)%": "Percentage error in the measured quantity"
+			},
+			"operators": ["×"]
+		},
+		"example": {
+			"steps": [
+						"Suppose m = 3, Δx = 0.1 mm, and x = 5 mm.",
+						"Calculate percentage error: (Δx / x)% = (0.1 / 5) × 100 = 2%.",
+						"Substitute into the formula: (Δz / z)% = 3 × 2%.",
+						"Result: Percentage error in z = 6%."
+					],
+			"result": "Percentage error = 6%"
+		}
+			}
+]

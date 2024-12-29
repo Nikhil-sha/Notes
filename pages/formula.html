@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Custom Styles -->
+	<script src="https://cdn.tailwindcss.com/"></script>
+	<link rel="stylesheet" href="/styles/main.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap">
+
+	<!-- Math.js -->
+	<script src="https://cdn.jsdelivr.net/npm/mathjs/lib/browser/math.min.js"></script>
+</head>
+
+<body>
+	<header class="sticky top-0 h-14 w-full bg-yellow-400 shadow-lg z-50">
+		<div class="w-full max-w-3xl mx-auto h-full px-4 flex justify-between items-center">
+			<!-- Logo/Title -->
+			<div>
+				<h1 class="text-lg font-black text-gray-800 tracking-wide">Notes.</h1>
+			</div>
+
+			<!-- Navigation Dropdown -->
+			<div class="relative">
+				<button id="menuButton" class="text-gray-800 font-medium focus:outline-none hover:text-gray-600 transition">
+					<i class="fas fa-bars"></i>
+				</button>
+
+				<!-- Dropdown Menu -->
+				<div id="dropdownMenu" class="hidden absolute right-0 mt-2 w-40 bg-white rounded-lg shadow-lg border border-gray-200 overflow-hidden">
+					<a href="#home" class="block px-4 py-2 text-gray-700 hover:bg-yellow-300"><i class="fas fa-home w-6 mr-2 text-center fa-sm"></i>Home</a>
+					<a href="#about" class="block px-4 py-2 text-gray-700 hover:bg-yellow-300"><i class="fas fa-user w-6 mr-2 text-center fa-sm"></i>About</a>
+					<a href="#contact" class="block px-4 py-2 text-gray-700 hover:bg-yellow-300"><i class="fas fa-phone w-6 mr-2 text-center fa-sm"></i>Contact</a>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<nav id="breadcrumb">
+	</nav>
+
+	<main class="w-full">
+		<section class="w-full max-w-3xl mx-auto px-4 py-8">
+			<h1 id="topic" class="text-3xl font-extrabold text-gray-900 mb-6">Loading…</h1>
+
+			<article id="introduction" class="mb-16">
+				<h2 class="text-xl font-semibold text-gray-800 leading-snug tracking-wide mb-2">
+				</h2>
+				<p class="text-gray-700 text-base leading-relaxed mb-4">
+				</p>
+				<p class="text-center font-bold text-gray-700 text-lg leading-relaxed mb-4">
+				</p>
+				<ul class="list-disc list-inside text-gray-600 text-sm space-y-2">
+				</ul>
+			</article>
+
+			<article id="derivation" class="mb-16">
+				<h2 class="text-xl font-semibold text-gray-800 leading-snug tracking-wide mb-2">
+				</h2>
+				<ul class="list-none list-inside text-gray-600 text-sm space-y-2">
+				</ul>
+				<p class="text-center font-bold text-gray-700 text-lg leading-relaxed mb-4"></p>
+			</article>
+
+			<article id="example" class="mb-16">
+				<h2 class="text-xl font-semibold text-gray-800 leading-snug tracking-wide mb-2">
+				</h2>
+				<ul class="list-none list-inside text-gray-600 text-sm space-y-2">
+				</ul>
+				<p class="text-center font-bold text-gray-700 text-lg leading-relaxed mb-4"></p>
+			</article>
+
+			<article id="calculator" class="">
+				<h2 class="text-xl font-semibold text-gray-800 leading-snug tracking-wide mb-2">
+					Claculate:
+				</h2>
+				<form class="w-full max-w-xs mx-auto px-8 py-6 flex flex-col border border-gray-200 rounded-lg" accept-charset="utf-8">
+					<div class="w-full flex items-center justify-evenly gap-2">
+						<input class="min-w-0 border-b border-gray-400 hover:border-b-2 focus:outline-none focus:border-yellow-500 transition duration-300" placeholder="P" type="number" name="pressure" id="pressure" value="" />
+						<i class="fas fa-plus fa-md"></i>
+						<input class="min-w-0 border-b border-gray-400 hover:border-b-2 focus:outline-none focus:border-yellow-500 transition duration-300" placeholder="A" type="number" name="area" id="area" value="" />
+					</div>
+					<div class="mt-4 flex items-center font-sm font-bold">
+						<i class="fas fa-equals fa-sm text-gray-700 mr-2"></i>
+						<p id="calculatedResult">12</p>
+					</div>
+					<div class="flex flex-row gap-2 items-center justify-even mt-2">
+						<button class="grow p-2 bg-rose-500 text-white font-bold rounded-lg hover:bg-rose-400 focus:bg-rose-600 transition duration-300" type="reset">Clear</button>
+						<button class="grow p-2 bg-green-500 text-white font-bold rounded-lg hover:bg-green-400 focus:bg-green-600 transition duration-300" type="submit">Calculate</button>
+					</div>
+				</form>
+			</article>
+		</section>
+	</main>
+
+	<footer class="w-full bg-gray-800 text-gray-200">
+		<section class="w-full max-w-6xl mx-auto px-4 py-8">
+			<!-- Top Section -->
+			<div class="flex flex-wrap justify-between items-center mb-8">
+				<h1 class="text-3xl font-extrabold text-yellow-400">Notes.</h1>
+				<div class="space-x-4">
+					<a href="https://github.com/Nikhil-sha" class="hover:text-blue-400"><i class="fab fa-github fa-lg"></i></a>
+					<a href="mailto:nikhil.s.manage@gmail.com" class="hover:text-blue-400"><i class="fas fa-envelope fa-lg"></i></a>
+					<a href="https://linkedin.com/in/nikhil" class="hover:text-blue-400"><i class="fab fa-linkedin fa-lg"></i></a>
+				</div>
+			</div>
+
+			<!-- Quick Links Section -->
+			<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 mb-8">
+				<div>
+					<h3 class="text-lg font-bold mb-4">Quick Links</h3>
+					<ul class="space-y-2">
+						<li><a href="/" class="hover:text-blue-400">Home</a></li>
+						<li><a href="#about" class="hover:text-blue-400">About</a></li>
+					</ul>
+				</div>
+				<div>
+					<h3 class="text-lg font-bold mb-4">Contact</h3>
+					<ul class="space-y-2">
+						<li>Email: <a href="mailto:nikhil.s.manage@gmail.com" class="hover:text-blue-400">nikhil.s.manage@gmail.com</a></li>
+						<li>GitHub: <a href="https://github.com/Nikhil-sha" class="hover:text-blue-400">Nikhil-sha</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="border-t border-gray-700 mt-8 pt-4">
+				<h2 class="text-center text-sm font-bold mb-4">Designed and developed by:</h2>
+				<div class="flex flex-col md:flex-row justify-around text-sm space-y-4 md:space-y-0">
+					<div>
+						<p class="font-bold">Nikhil Sharma</p>
+						<div class="space-x-2 mt-2">
+							<a href="https://github.com/Nikhil-sha" class="hover:text-blue-400"><i class="fab fa-github fa-lg"></i></a>
+							<a href="mailto:nikhil.s.manage@gmail.com" class="hover:text-blue-400"><i class="fas fa-envelope fa-lg"></i></a>
+						</div>
+					</div>
+					<div>
+						<p class="font-bold">Himesh Gupta</p>
+						<div class="space-x-2 mt-2">
+							<a href="https://github.com/chiku8953" class="hover:text-blue-400"><i class="fab fa-github fa-lg"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Bottom Section -->
+			<div class="border-t border-gray-700 mt-8 pt-4 text-center text-sm">
+				<p>&copy; 2024 Notes. All rights reserved.</p>
+			</div>
+		</section>
+	</footer>
+	<script src="/scripts/formula.js"></script>
+	<script src="/scripts/template.js"></script>
+</body>
+
+</html>
