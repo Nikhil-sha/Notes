@@ -76,7 +76,7 @@
 					],
 			"result": "Absolute error = 2"
 		}
-			},
+	},
 	{
 		"topic_name": "Mean Absolute Error",
 		"equation": {
@@ -97,7 +97,7 @@
 					],
 			"result": "Mean absolute error = 2"
 		}
-			},
+	},
 	{
 		"topic_name": "Relative Error",
 		"equation": {
@@ -117,7 +117,7 @@
 					],
 			"result": "Relative error = 0.04"
 		}
-			},
+	},
 	{
 		"topic_name": "Percentage Error",
 		"equation": {
@@ -138,7 +138,7 @@
 					],
 			"result": "Percentage error = 4%"
 		}
-			},
+	},
 	{
 		"topic_name": "Vernier Caliper",
 		"definition": "A vernier caliper is an instrument used to measure internal and external dimensions and depths with high accuracy.",
@@ -198,7 +198,7 @@
 			},
 			"operators": ["×"]
 		}
-			},
+	},
 	{
 		"topic_name": "Negative Zero Error",
 		"equation": {
@@ -209,7 +209,7 @@
 			},
 			"operators": ["-", "×"]
 		}
-			},
+	},
 	{
 		"topic_name": "Correct Reading of Vernier Caliper",
 		"equation": {
@@ -269,7 +269,7 @@
 					],
 			"result": "Least count = 0.01 mm"
 		}
-			},
+	},
 	{
 		"topic_name": "Pitch of Screw Gauge",
 		"definition": "The pitch is the distance moved by the screw in one complete rotation. For example, a pitch of 0.1 mm indicates that the screw advances by 0.1 mm on the main scale for one full rotation."
@@ -330,7 +330,7 @@
 			},
 			"operators": ["×"]
 		}
-			},
+	},
 	{
 		"topic_name": "Negative Error",
 		"equation": {
@@ -381,7 +381,7 @@
 					],
 			"result": "Total error = 0.3 mm"
 		}
-			},
+	},
 	{
 		"topic_name": "Errors in Multiplication and Division",
 		"equation": {
@@ -402,7 +402,7 @@
 					],
 			"result": "Maximum relative error = 0.04"
 		}
-			},
+	},
 	{
 		"topic_name": "Errors in Percentage (Multiplication and Division)",
 		"equation": {
@@ -423,7 +423,7 @@
 					],
 			"result": "Percentage error = 4%"
 		}
-			},
+	},
 	{
 		"topic_name": "Error in Power of a Measured Quantity",
 		"equation": {
@@ -444,7 +444,7 @@
 					],
 			"result": "Error in z = 0.06"
 		}
-			},
+	},
 	{
 		"topic_name": "Percentage Error in Power of a Measured Quantity",
 		"equation": {
@@ -465,5 +465,5 @@
 					],
 			"result": "Percentage error = 6%"
 		}
-			}
+	}
 ]
