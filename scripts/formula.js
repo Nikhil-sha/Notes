@@ -1,6 +1,7 @@
 const topicHeading = document.getElementById("topic");
 const introductionSection = document.getElementById("introduction");
 const derivationSection = document.getElementById("derivation");
+const exampleSection = document.getElementById("example");
 
 const currentUrl = window.location.href;
 const urlObj = new URL(currentUrl);
@@ -117,6 +118,18 @@ async function loadFormula() {
 			formula.derivation.steps.forEach(step => addListItem(derivationList, step));
 			derivationResult.textContent = formula.derivation.result;
 			derivationSection.classList.remove("hidden");
+		}
+
+		// Populate example
+		if (formula.example) {
+			const exampleTitle = exampleSection.querySelector('h2');
+			const exampleList = exampleSection.querySelector('ul');
+			const exampleResult = exampleSection.querySelector('p');
+			exampleTitle.textContent = "Example";
+
+			formula.example.steps.forEach(step => addListItem(exampleList, step));
+			exampleResult.textContent = formula.example.result;
+			exampleSection.classList.remove("hidden");
 		}
 
 		addMetaTags({
