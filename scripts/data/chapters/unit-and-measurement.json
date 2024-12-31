@@ -5,7 +5,7 @@
     "equation": {
         "formula": "Physical Quantity = Value x Unit",
         "terms": {
-                (dimension: [M])",
+            "Mass": "kg (dimension: [M])",
             "Length": "",
             "Time": {
                 "symbol": "t",
