@@ -1,32 +1,65 @@
 [
-	{
-		"topic_name": "Supplementary Quantities",
-		"definition": "Supplementary quantities are additional units that define plane angle and solid angle.",
-		"equation": {
-			"formula": "Radian = arc length / radius",
-			"terms": {
-				"Radian": "The unit of plane angle",
-				"arc length": "The length of the arc of a circle",
-				"radius": "The radius of the circle"
-			},
-			"operators": ["/"]
-		},
-		"derivation": {
-			"steps": [
-				"Consider a circle with radius r and arc length l.",
-				"The plane angle in radians is defined as the ratio of the arc length to the radius."
-			],
-			"result": "dθ = dl / r"
-		},
-		"example": {
-			"steps": [
-				"Take a circle with radius r = 2 m and an arc length l = 6 m.",
-				"Substitute the values into the formula: Radian = l / r.",
-				"Radian = 6 / 2 = 3."
-			],
-			"result": "Plane angle = 3 radians"
-		}
-	},
+  {
+    "topic_name": "Fundamental Quantities",
+    "definition": "Fundamental quantities are the basic physical quantities that are not defined in terms of other quantities and form the foundation of physical measurements.",
+    "equation": {
+        "formula": "Physical Quantity = Value x Unit",
+        "terms": {
+            "Mass": {
+                "symbol": "m",
+                "name": "Mass",
+                "dimension": "[M]"
+            },
+            "Length": {
+                "symbol": "l",
+                "name": "Length",
+                "dimension": "[L]"
+            },
+            "Time": {
+                "symbol": "t",
+                "name": "Time",
+                "dimension": "[T]"
+            },
+            "Electric Current": {
+                "symbol": "I",
+                "name": "Electric Current",
+                "dimension": "[A]"
+            },
+            "Temperature": {
+                "symbol": "T",
+                "name": "Temperature",
+                "dimension": "[K]"
+            },
+            "Amount of Substance": {
+                "symbol": "n",
+                "name": "Amount of Substance",
+                "dimension": "[mol]"
+            },
+            "Luminous Intensity": {
+                "symbol": "I_v",
+                "name": "Luminous Intensity",
+                "dimension": "[C]"
+            }
+        },
+        "operators": [
+            "Mass [M]",
+            "Length [L]",
+            "Time [T]",
+            "Electric Current [A]",
+            "Temperature [K]",
+            "Amount of Substance [mol]",
+            "Luminous Intensity [C]"
+        ]
+    },
+    "example": {
+        "steps": [
+            "Consider Length as a fundamental quantity.",
+            "Length is represented by the symbol 'l' and measured in meters (m) in the SI system.",
+            "It cannot be derived from other quantities, making it fundamental."
+        ],
+        "result": "Length = Value x meter (m), Dimension = [L]"
+    }
+},
 	{
 		"topic_name": "Conversion of Units",
 		"definition": "The conversion of units is based on the principle that the numerical value of a physical quantity changes when the unit of measurement changes.",
