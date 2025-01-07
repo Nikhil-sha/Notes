@@ -52,6 +52,37 @@
         "result": "Length = Value x meter (m), Dimension = [L]"
     }
 },
+{
+  "topic_name": "Supplementary Quantities",
+  "definition": "Supplementary quantities are physical quantities that are independent of the fundamental quantities and are used to describe geometrical properties of objects, such as angles and solid angles.",
+  "equation": {
+    "formula": "radian(dY°) = ds/r",
+    "formula1":"steradian(dX°) = dA/r^2",
+    "terms": {
+      "ds": "displacment of arc",
+      "dA":"area of spheric arc",
+      "Angle": "The measure of rotation between two intersecting lines.",
+      "Solid Angle": "The angle subtended by an object in three-dimensional space."
+    },
+    "operators": []
+  },
+  "derivation": {
+    "steps": [
+      "Start with the basic definitions of angle and solid angle.",
+      "Supplementary quantities are defined through geometrical measurements."
+    ],
+    "result": "Supplementary quantities such as angles and solid angles are independent of fundamental quantities."
+  },
+  "example": {
+    "steps": [
+      "Angle is a supplementary quantity.",
+      "Angle is measured in radians or degrees.",
+      "For example, an angle of 90 degrees or π/2 radians.",
+      "Solid angle is measured in steradians (sr)."
+    ],
+    "result": "Angle and solid angle are supplementary quantities."
+  }
+},
 	{
 		"topic_name": "Conversion of Units",
 		"definition": "The conversion of units is based on the principle that the numerical value of a physical quantity changes when the unit of measurement changes.",
